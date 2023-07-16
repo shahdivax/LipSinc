@@ -16,6 +16,7 @@ filelock
 Flask
 flatbuffers
 fonttools
+ffmpeg
 gast
 gdown
 gitdb
@@ -36,6 +37,8 @@ jsonschema-specifications
 keras
 kiwisolver
 libclang
+libsm6
+libxext6
 Markdown
 markdown-it-py
 MarkupSafe
