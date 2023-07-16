@@ -44,6 +44,7 @@ mdurl
 numpy
 oauthlib
 opencv-python
+opencv-python-headless
 opt-einsum
 packaging
 pandas
