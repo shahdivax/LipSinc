@@ -27,7 +27,7 @@ def load_model() -> Sequential:
 
     model.add(Dense(41, kernel_initializer='he_normal', activation='softmax'))
 
-    model.load_weights(os.path.join('..', 'models', 'checkpoint'))
+    model.load_weights(os.path.join('', 'models', 'checkpoint'))
 
     return model
 
