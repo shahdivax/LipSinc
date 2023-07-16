@@ -1,6 +1,8 @@
 #Run this to start the stramlit app
 
 import streamlit as st
+import ctypes
+ctypes.CDLL("libGL.so.1", mode=ctypes.RTLD_GLOBAL) 
 import cv2
 import os
 import imageio
