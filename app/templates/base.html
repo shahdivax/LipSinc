@@ -4,13 +4,47 @@
 <html>
 <head>
   <title>LipNet Demo</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </head>
+
+<style>
+  body{
+    background-image: url('https://img.freepik.com/premium-photo/group-unrecognizable-anonymous-people-bokeh-walking-street-defocused-image_27550-1643.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height:100%;
+  }
+
+  .predict{
+    background-color:green;
+    color:white;
+  }
+
+  .formip{
+    border:10px;
+  }
+
+  .form-div{
+    width:50%;
+    height:50%;
+    padding:2%;
+  }
+
+  .btn-predict{
+    margin-right:12px;
+    width:60%;
+    padding:5px;
+  }
+
+</style>
+
 
 <body>
   <div class="container">
     {% block content %}
     {% endblock %}
-  </div>
+    </div>
 </body>
 </html>
