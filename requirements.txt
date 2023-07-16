@@ -37,7 +37,6 @@ jsonschema-specifications
 keras
 kiwisolver
 libclang
-libxext6
 Markdown
 markdown-it-py
 MarkupSafe
@@ -45,7 +44,6 @@ matplotlib
 mdurl
 numpy
 oauthlib
-opencv-python
 opencv-python-headless
 opt-einsum
 packaging
